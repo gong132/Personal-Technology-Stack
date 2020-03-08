@@ -55,6 +55,18 @@ export default [
             component: './codeEditor'
           },
           {
+            path: '/customChangeColors',
+            name: '动态切换颜色',
+            icon: 'read',
+            component: './customChangeColors'
+          },
+          {
+            path: '/uploadImg',
+            name: '图片上传',
+            icon: 'read',
+            component: './Upload'
+          },
+          {
             path: '/drag',
             name: 'drag',
             icon: 'drag',
