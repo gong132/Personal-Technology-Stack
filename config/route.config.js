@@ -67,6 +67,12 @@ export default [
             component: './Upload'
           },
           {
+            path: '/listScroller',
+            name: '滚动加载list',
+            icon: 'read',
+            component: './listScroller'
+          },
+          {
             path: '/drag',
             name: 'drag',
             icon: 'drag',

@@ -1,4 +1,4 @@
-import { Input, Form, Select, Popover } from 'antd'
+import { Input, Form, Select, Popover, Card } from 'antd'
 import React, { Component } from 'react'
 import { createSquare, returnColors } from './Colors'
 import ColorsPick from './coloraPick'
@@ -39,7 +39,7 @@ class ColorsChange extends Component {
     console.log(returnColors)
     return (
       <div>
-        <Form>
+        {/* <Form>
           <Form.Item label='姓名' labelCol={{ span: 4 }} wrapperCol={{ span: 8 }}>
             <span key='1'>
               <Input placeholder='请输入姓名' />
@@ -48,7 +48,8 @@ class ColorsChange extends Component {
               </Popover>
             </span>
           </Form.Item>
-        </Form>
+        </Form> */}
+        <Card><a href='https://www.npmjs.com/package/react-color' target='__blank'>react-color</a> </Card>
         <ColorsPick />
       </div>
     );

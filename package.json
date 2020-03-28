@@ -48,6 +48,8 @@
     "not ie <= 10"
   ],
   "dependencies": {
+    "reqwest": "^2.0.5",
+    "react-infinite-scroller": "^1.2.4",
     "@ant-design/pro-layout": "^4.9.11",
     "@antv/data-set": "^0.10.2",
     "animate.css": "^3.7.2",
@@ -96,6 +98,7 @@
     "@types/react-dom": "^16.8.4",
     "@types/react-helmet": "^5.0.13",
     "@umijs/fabric": "^2.0.0-beta.3",
+    "axios": "^0.19.2",
     "chalk": "^3.0.0",
     "check-prettier": "^1.0.3",
     "cross-env": "^6.0.0",

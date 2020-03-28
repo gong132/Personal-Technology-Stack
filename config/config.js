@@ -109,18 +109,17 @@ export default {
           .map(a => a.toLowerCase());
         return `antd-pro${arr.join('-')}-${localName}`.replace(/--/g, '-');
       }
-
       return localName;
     },
   },
   manifest: {
     basePath: '/',
   }, // chainWebpack: webpackPlugin,
-  // proxy: {
-  //   '/server/api/': {
-  //     target: 'https://preview.pro.ant.design/',
-  //     changeOrigin: true,
-  //     pathRewrite: { '^/server': '' },
-  //   },
-  // },
+  proxy: {
+    '/server/': {
+      target: 'http://localhost:3000',
+      changeOrigin: true,
+      pathRewrite: { '^/server': '' },
+    },
+  },
 };

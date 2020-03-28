@@ -43,9 +43,9 @@ class ColorsPick extends Component {
             </div>
           </TabPane>
           <TabPane key='2' tab='AlphaPicker'>
-            <div>
+            <div title='无法进行颜色的改变，暂未解决'>
               <div style={{ border: `1px ${this.state.currentColor2} solid`, backgroundColor: this.state.currentColor2, width: '20px', height: '20px' }} />
-              <AlphaPicker onChange={this.onChange2} color={this.state.currentColor2} />
+              <AlphaPicker  onChange={this.onChange2} color={this.state.currentColor2} />
             </div>
           </TabPane>
           <TabPane key='3' tab='BlockPicker'>
